@@ -1,0 +1,74 @@
+.review {
+    background-image: url(../img/review.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+    
+
+    &__storybox {
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0); /* Black background with 0 opacity */
+        color: #f1f1f1;
+        width: 80%;
+        padding: 3rem;
+        text-align: center;
+    }
+
+    &__para {
+        text-align: center;
+        font-size: 1.8rem;
+        line-height: 2;
+        font-weight: 400;
+        padding: 0 20rem;
+    }
+
+    &__pic {
+        width: 15rem;
+        height: 15rem;
+        float: top;
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        transform: scale(.7);
+        display: inline-block;
+
+    }
+}
+
+.ingredients {
+    height: 50vh;
+    width: 100%;
+    background-color: #ebebeb;
+    padding-top: 9rem;
+    padding-bottom: 3rem;
+    position: absolute;
+    z-index: 1;
+    display: block;
+
+    &__left {
+        text-align: left;
+        padding-left: 20rem;
+        margin-left: 5rem;
+    }
+
+    &__para {
+        width: 100%;
+        font-size: $default-font-size;
+        line-height: 2;
+        font-weight: 200;
+        margin-bottom: 3rem;
+        text-align: left;
+    }
+
+    &__right {
+        position: absolute;
+        top: -5rem;
+        width: 50%;
+        transform: scale(1.2);
+    }
+}

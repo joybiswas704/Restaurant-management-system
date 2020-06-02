@@ -1,0 +1,29 @@
+.footer {
+    width: 100%;
+    padding: 5rem;
+    background-color: $color-gray-dark-3;
+
+    &-item {
+        text-align: center;
+        color: #ededed;
+        font-size: $default-font-size;
+        line-height: 2;
+        font-weight: 200;
+        padding: 5rem;
+        
+    }
+}
+
+
+
+.footer-grid-container {
+    width: 75%;
+    display: grid;
+    padding: 2rem 20rem;
+    padding-bottom: 10rem;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+    grid-gap: 1rem;
+    
+}
+

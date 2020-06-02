@@ -1,0 +1,65 @@
+html {
+    font-size: 62.5%;
+}
+
+// Heading
+
+.heading__pre {
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    animation: top-to-bottom 1s;
+    animation-fill-mode: backwards;
+}
+
+.heading__primary {
+    text-transform: uppercase;
+    letter-spacing: 1.7rem;
+    font-size: 8.5rem;
+    font-weight: 600;
+    animation: top-to-bottom 1s .3s;
+    animation-fill-mode: backwards;
+}
+
+
+.heading__paragraph {
+    max-width: 75%;
+    margin: 0 auto;
+    padding-right: 2.5rem;
+    font-size: $default-font-size;
+    line-height: 2;
+    font-weight: 200;
+    margin-bottom: 3rem;
+
+    animation: top-to-bottom 1s .6s;
+    animation-fill-mode: backwards;
+
+}
+
+.heading__secondary {
+    text-transform: uppercase;
+    margin: 2rem 0;
+    letter-spacing: 1rem;
+    font-size: 4rem;
+    font-weight: 600;
+
+    &-pre {
+        text-transform: uppercase;
+        letter-spacing: .5rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+
+    &-paragraph {
+        max-width: 40%;
+        margin: 0 auto;
+        font-size: $default-font-size;
+        line-height: 2;
+        font-weight: 200;
+        margin-bottom: -4rem;
+    }
+}
+
+
+// End

@@ -1,0 +1,46 @@
+.header {
+    height: 100vh;
+    background-image: url(../img/header.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: $color-white;
+    position: relative;
+    
+    -webkit-animation: zoomin 10s linear;
+    animation: zoomin 10s linear;
+    animation-fill-mode: forwards;
+
+    &-2 {
+        height: 100vh;
+        background-image: url(../img/header-2.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        color: $color-white;
+        position: relative;
+    
+        -webkit-animation: zoomout 10s linear;
+        animation: zoomout 10s linear;
+        animation-fill-mode: forwards;
+    }
+
+    &-3 {
+        height: 100vh;
+        background-image: url(../img/header-3.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        color: $color-white;
+        position: relative;
+    
+        -webkit-animation: zoomin 10s linear;
+        animation: zoomin 10s linear;
+        animation-fill-mode: forwards;
+    }
+
+    &__text-box {
+        @include absCenter;
+        text-align: center;
+    }
+}

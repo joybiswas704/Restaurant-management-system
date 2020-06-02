@@ -1,0 +1,30 @@
+.res-grid-container {
+    width: 75%;
+    display: grid;
+    padding: 2rem 20rem;
+    padding-bottom: 10rem;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+    grid-gap: 1rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+.item {
+    padding: 2.5rem;
+    box-shadow: 0 .2rem .2rem rgba($color-black, 0.5);
+    outline: none;
+    border: none;
+    &-last {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding: 2.5rem;
+        box-shadow: 0 .2rem .2rem rgba($color-black, 0.5);
+        outline: none;
+        border: none;
+    }
+
+}
+

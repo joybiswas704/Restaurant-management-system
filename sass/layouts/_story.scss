@@ -1,0 +1,28 @@
+.story {
+    width: 100%;
+    background-color: $color-white;
+
+    
+    &__text-box {
+        margin: 5rem;
+        padding: 5rem;
+       text-align: center;
+    }
+
+    &__img {
+        max-width: 100%;
+        height: auto;
+        vertical-align: top;
+        padding: 0 4.5rem;
+    }
+
+    &__img-container {
+        margin: 2rem 10rem;
+        padding: 0 10rem;
+    }
+
+    &__sign-box {
+        text-align: center;
+        padding: 5rem;
+    }
+}
